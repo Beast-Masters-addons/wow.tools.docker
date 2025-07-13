@@ -1,0 +1,15 @@
+services:
+  wow_tools:
+    build:
+      context: .
+      args:
+      - WOW_TOOLS_VERSION=0.8.0
+    ports:
+    - "5080:8080"
+    volumes:
+    - ./dbc:/app/dbcs
+    - ./config.json:/app/config.json
+    - cache:/app/cache
+
+volumes:
+  cache:

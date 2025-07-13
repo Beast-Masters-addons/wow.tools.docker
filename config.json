@@ -1,0 +1,17 @@
+﻿{
+  "config": {
+    "definitionDir": "WoWDBDefs/definitions",
+    "dbcFolder": "/app/dbcs",
+    "manifestFolder": "manifests",
+    "listfileURL": "https://github.com/wowdev/wow-listfile/releases/latest/download/community-listfile-withcapitals.csv",
+    "tactKeyURL": "https://github.com/wowdev/TACTKeys/raw/master/WoW.txt",
+    "wowFolder": "",
+    "wowProduct": "wow_classic",
+    "region": "eu",
+    "locale": "enUS",
+    "showAllFiles": false,
+    "extractionDir": "extract",
+    "preferHighResTextures": false,
+    "useTACTSharp": false
+  }
+}
