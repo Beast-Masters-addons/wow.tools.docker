@@ -1,7 +1,7 @@
 import requests
 from packaging.version import Version
 
-response = requests.get('https://github.com/Marlamin/wow.tools.local')
+response = requests.get('https://api.github.com/repos/Marlamin/wow.tools.local/tags')
 
 highest = None
 highest_tag = None
