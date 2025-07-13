@@ -57,5 +57,5 @@ jobs:
         build-args: |
           PACKAGE_VERSION=${{ needs.getversion.outputs.build-version }}
         tags: |
-          ghcr.io/datagutten/wow.tools.docker:${{ needs.getversion.outputs.build-version }} 
-          ghcr.io/datagutten/wow.tools.docker:latest
+          ghcr.io/beast-masters-addons/wow.tools.docker:${{ needs.getversion.outputs.build-version }} 
+          ghcr.io/beast-masters-addons/wow.tools.docker:latest
